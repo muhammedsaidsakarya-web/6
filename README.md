@@ -1,16 +1,22 @@
-# Akıllı Bütçe
+# MVP Lab (7 Ürün Prototipi)
 
-Türkçe, mobil uyumlu kişisel finans takip uygulaması.
+Bu proje, tek bir Next.js arayüzünde aşağıdaki 7 fikir için etkileşimli MVP prototipleri içerir:
 
-## Özellikler
+1. Yapay zekâ destekli kişisel finans uygulaması
+2. Freelance müşteri ve proje yönetim paneli
+3. Türkçe öğrenci çalışma platformu
+4. CV ve portföy oluşturucu
+5. GitHub analiz paneli
+6. Stok ve satış takip sistemi
+7. Etkinlik platformu
 
-- Gelir ve gider ekleme, silme
-- Bakiye, gelir ve gider özeti
-- Kategori bazlı bütçe takibi
-- Son işlemler listesi
-- Demo verilerini temizleme
-- LocalStorage ile tarayıcıda veri saklama
-- Responsive ve erişilebilir arayüz
+## Dahil edilen MVP özellikleri
+
+- Her ürün için ayrı çalışma ekranı (sol menüden geçiş)
+- Form tabanlı temel CRUD/iş akışları
+- Özet kartları, durum göstergeleri ve basit analizler
+- GitHub panelinde canlı repo metrik çekimi (`owner/repo`)
+- Etkinlik modülünde QR check-in simülasyonu
 
 ## Çalıştırma
 
@@ -21,6 +27,7 @@ npm run dev
 
 Ardından `http://localhost:3000` adresini açın.
 
-## Sonraki adımlar
+## Notlar
 
-Bu MVP backend gerektirmez. İleride `lib/storage.ts` içindeki veri katmanı Supabase Auth ve PostgreSQL ile değiştirilebilir.
+- Prototip tamamen istemci tarafında çalışır.
+- Veri kalıcılığı ve gerçek üretim entegrasyonları (auth, backend, ödeme, bildirim sağlayıcıları vb.) bu sürümde kapsam dışıdır.
